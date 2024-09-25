@@ -13,8 +13,6 @@ public class HelloWorldController : Controller
     {
         ViewData["Message"] = "Hello " + name;
         ViewData["NumTimes"] = numTimes;
-        string nombreAmorcito = "Fantachita";
-        ViewData["Auxiliar"] = nombreAmorcito;
         return View();
     }
 }
